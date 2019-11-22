@@ -1,0 +1,56 @@
+* {
+	background-color: #FAF9F8;
+
+}
+
+ul {
+	font-family: avenir next;
+	font-size: 19px;
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: center;
+	letter-spacing: 2.5px;
+	font-weight: 400;
+	
+}
+
+li:hover {
+	text-decoration: underline;
+}
+
+li {
+	padding: 1rem;
+}
+
+ul:first-child {
+	justify-content: flex-end;
+	margin-right: 20px;
+}
+
+img {
+	height: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1px;
+}
+
+ul:last-child {
+	width: 800;
+	font-size: 16px;
+	margin: 40px;
+	align-items: center;
+}
+
+
+article {
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+article img {
+	height: 855px;
+	margin-bottom: 30px;
+}
