@@ -1,0 +1,344 @@
+* {
+
+	font-family: avenir next;
+	font-size: 19px;
+}
+
+li:hover {
+	text-decoration: underline;
+}
+
+li {
+	padding: 1rem;
+}
+
+a {
+	text-decoration: underline;
+	color: black;
+	text-decoration: none;
+}
+
+
+
+/*Navigatie*/
+
+/*link*/
+ul:first-child div {
+	display: flex;
+}
+
+header {
+	background-color: white;
+	height: 30px;
+	left: 0;
+	padding: 21px 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+	margin-top: -10px;
+}
+
+/*iconen*/
+li img {
+	height: 20px;
+	padding: -40px;
+	float: right;
+	width: 20px;
+}
+
+/*Logo*/
+nav figure img {
+	height: 22px;
+	margin-left: -39px;
+}
+
+/*hamburger menu*/
+div.hamburger {
+	width: 1.1rem;
+	height: 0.8rem;
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	left: -15px;
+	top: 3px;
+}
+
+.hamburger span {
+	height: 0.1rem;
+	width: 10rem;
+	display: block;
+	background: #222222;
+}
+
+.hamburger span::before,
+span::after {
+	content: '';
+	height: 0.1rem;
+	width: 100%;
+	position: absolute;
+	background: #222222;
+}
+
+.hamburger span::before {
+	top: 0px;
+
+}
+
+.hamburger span::after {
+	bottom: 0px;
+}
+
+/*Einde van de header*/
+
+
+/*Hoofdpagina foto's*/
+/*tekst boven afbeeldingen*/
+main p:first-child {
+	font-size: 11px;
+	text-align: center;
+	font-weight: 270;
+	margin: 110px 0 25px 0;
+}
+
+main li {
+	justify-content: center;
+	list-style-type: none;
+	letter-spacing: 2.5px;
+	font-size: 24px;
+	font-weight: 540;
+}
+
+article ul {
+	text-align: center;
+	margin-right: 45px;
+}
+
+#hoofdfoto img {
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 30px;
+	height: 100%;
+	width: 330px;
+
+}
+
+
+
+/*Einde hoofdpagina foto's*/
+
+
+/*Magazine afbeeldingen*/
+#magazine {
+	background: #f4eddd;
+	padding: 48px 24px;
+	text-align: center;
+}
+
+
+
+h2 {
+	text-align: center;
+	background-color: #f4eddd;
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+section li a {
+	font-size: 13px;
+	text-align: center;
+	margin-right: 40px;
+	background-color: #f4eddd;
+	text-decoration: underline;
+	letter-spacing: 3px;
+
+}
+
+article img {
+	max-width: 100%;
+}
+
+article {
+	background-color: white;
+	margin-bottom: 35px;
+	padding-bottom: 20px
+}
+
+article p {
+	text-align: center;
+	font-size: 13px;
+	line-height: 20px;
+	margin-top: 20px
+}
+
+h3 {
+	font-size: 16px;
+	text-align: center;
+	line-height: 20px;
+	font-weight: 540;
+	max-width: 250px;
+	margin: auto;
+	margin-bottom: 30px;
+
+}
+
+main article img {
+	display: flex;
+	width: 400px;
+}
+
+article a {
+	font-size: 10px;
+	margin-bottom: 30px;
+}
+
+/*laatste groene border*/
+
+main section:last-child {
+	box-sizing: border-box;
+	max-height: 125px;
+	max-width: 325px;
+	padding: 10px;
+	background-color: #C1C5A3;
+	color: white;
+	margin: 25px auto 20px;
+}
+
+main section:last-child h3 {
+	margin: 10px 50px 0;
+	font-size: 15px;
+}
+
+main section:last-child p {
+	font-size: 12px;
+	text-align: center;
+	margin: 5px 20px;
+	0px 20px;
+	font-weight: 100
+}
+
+
+
+/*Einde laatste groene border*/
+
+/*Einde magazine afbeeldingen*/
+
+
+
+
+
+/*Footer*/
+
+footer {
+	background-color: #e4e4e4;
+	height: 648px;
+	width: 100%;
+}
+
+footer ul {
+	list-style-type: none;
+	margin-top: 0px;
+	padding: 25px 0 0 3px;
+	font-weight: 600;
+	margin-bottom: -15px;
+	margin-top: -20px;
+}
+
+footer li {
+	background-color: #E4E4E4;
+	font-size: 12px;
+
+}
+
+h4 {
+	text-align: center;
+	font-size: 12px;
+	font-weight: 550;
+	margin-top: 50px;
+	margin-bottom: -23px;
+	letter-spacing: 1px;
+}
+
+footer p {
+	background-color: #E4E4E4;
+	text-align: center;
+	font-size: 13px;
+	line-height: 17px;
+	margin: 8px 23px;
+	font-weight: 440;
+	padding-top: 30px;
+	word-spacing: 2px;
+
+}
+
+footer img {
+	width: 20px;
+	height: auto;
+	padding: 5px;
+
+}
+
+
+footer #container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: -40px;
+}
+
+/*Einde Footer*/
+
+/*nieuwsletter pagina*/
+
+
+main figure #nieuwsletter 
+{
+    width: 380px;
+    height: 100px;
+	margin-left: -50px;
+	margin-top: 10px;
+	
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+
+	.height {
+		transform: translateX(-100%);
+	}
+
+	#menu {
+		position: absolute;
+		left: -100%;
+	}
+
+	#iconen a {
+		display: none;
+	}
+
+}
+
+@media (min-width: 1030px) {
+	nav ul {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#magazine img {
+		display: flex;
+		height: 250px;
+
+		flex-direction: column;
+	}
+
+
+}
